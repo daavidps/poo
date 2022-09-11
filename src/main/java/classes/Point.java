@@ -1,4 +1,4 @@
-package lang;
+package classes;
 
 public class Point {
 
