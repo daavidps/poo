@@ -7,12 +7,12 @@ public class Declarative {
 
         final int[] list = {0, 1, 2, 3};
         int sum = Arrays.stream(list)
-                .sum();
+                .sum();  //declarative
         System.out.println("Suma: " + sum);
 
         int max = Arrays.stream(list)
-                .max()
-                .orElse(-1);
-        System.out.println("Maximo: " + max);
+                .max()              //declarative
+                .orElse(-1);  //declarative
+        System.out.println("Máximo: " + max);
     }
 }

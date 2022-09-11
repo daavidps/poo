@@ -8,7 +8,6 @@ public class Imperative {
 
         final int MIDDAY = 12;
         final String NAME = "Jesús";
-        System.out.println("POO");
         if (LocalDateTime.now().getHour() < MIDDAY) {
             System.out.println("Buenos días " + NAME + "!");
         } else {
@@ -17,14 +16,16 @@ public class Imperative {
 
         final int[] list = {0, 1, 2, 3};
         int accumulator = 0;
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < list.length; i++) {
             accumulator += list[i];
         }
         System.out.println("Suma (for i): " + accumulator);
-        accumulator = 0;
-        for (int item: list) {
-            accumulator += item;
+        int max = -1; // solo para listas con valores naturales
+        for (int item : list) {
+            if (item > max) {
+                max = item;
+            }
         }
-        System.out.println("Suma (for each): " + accumulator);
+        System.out.println("Máximo (for each): " + max);
     }
 }
