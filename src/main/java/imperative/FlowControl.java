@@ -20,5 +20,14 @@ public class FlowControl {
             System.out.println("ERROR, valor no previsto");
         }
 
+        String month ="February";
+        switch (month) {
+            case "January":
+            case "February":
+            case "March":
+                System.out.println("It's Winter");
+                break;
+        }
+
     }
 }
