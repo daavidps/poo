@@ -36,7 +36,7 @@ public class Types {
         System.out.println("values length: " + values.length);
         System.out.println("values: " + Arrays.toString(values));
 
-        String[] items = new String[10];
+        String[] items = new String[10];  // 0..9, contenido es null
         items[3] = "third";
         System.out.println("items: " + Arrays.toString(items));
 
