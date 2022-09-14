@@ -40,9 +40,8 @@ public class Types {
         items[3] = "third";
         System.out.println("items: " + Arrays.toString(items));
 
-        byte byteValue = 10;
         int intValue = 1000;
-        byteValue = (byte) intValue;
+        byte byteValue = (byte) intValue;
         intValue = byteValue;
         System.out.println("intValue: " + intValue);
     }

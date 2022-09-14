@@ -29,6 +29,8 @@ public class FlowControl {
             case "March":
                 System.out.println("It's Winter");
                 break;
+            default:
+                System.out.println("Error");
         }
 
         int value = 8;
