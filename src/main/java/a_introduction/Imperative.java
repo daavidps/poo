@@ -1,4 +1,4 @@
-package introduction;
+package a_introduction;
 
 import java.time.LocalDateTime;
 

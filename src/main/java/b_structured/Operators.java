@@ -1,4 +1,4 @@
-package imperative;
+package b_structured;
 
 public class Operators {
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class Operators {
 
         int x = 1;
         double y = 2;
-        System.out.println("expression (1+x/2): " + (1 + x / y));
+        System.out.println("expression (1+x/y): " + (1 + x / y));
     }
 
 }

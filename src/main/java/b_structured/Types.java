@@ -1,4 +1,4 @@
-package imperative;
+package b_structured;
 
 import java.util.Arrays;
 
@@ -20,14 +20,14 @@ public class Types {
 
         String name = "My name is...";  // Class
 
-        System.out.println("minValue: " + minValue);
-        System.out.println("twoBytes: " + twoBytes);
-        System.out.println("age: " + age);
-        System.out.println("creditCard: " + creditCard);
-        System.out.println("decimal: " + decimal);
-        System.out.println("bigger: " + bigger);
+        System.out.println("minValue (1B): " + minValue);
+        System.out.println("twoBytes (2B): " + twoBytes);
+        System.out.println("age (4B): " + age);
+        System.out.println("creditCard (8B): " + creditCard);
+        System.out.println("decimal: (4B)" + decimal);
+        System.out.println("bigger: (8B)" + bigger);
         System.out.println("flag: " + flag);
-        System.out.println("character: " + character);
+        System.out.println("character: (2B)" + character);
         System.out.println("UNICODE: " + UNICODE_VALUE);
         System.out.println("name: " + name);
 
@@ -44,5 +44,6 @@ public class Types {
         int intValue = 1000;
         byteValue = (byte) intValue;
         intValue = byteValue;
+        System.out.println("intValue: " + intValue);
     }
 }

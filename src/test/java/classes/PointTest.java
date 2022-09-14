@@ -1,5 +1,6 @@
 package classes;
 
+import c_classes.Point;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
